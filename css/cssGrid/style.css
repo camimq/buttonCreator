@@ -1,0 +1,34 @@
+/* reseta o css */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background: #7159c1;
+}
+
+.container{
+    display: grid; /* start o grid */
+    grid-template-columns: 3fr 1fr; /* define a divisão onde a primeira coluna tem 3 frações e a última apenas 1 */
+    grid-template-rows: 20vh 70vh 10vh;
+}
+
+
+header{
+    background: yellow;
+    height: 100px;
+}
+
+main{
+    background: blue;
+    height: 100px;
+}
+
+aside{
+    background: green;
+    height: 100px;
+}
+
+footer{
+    background: red;
+    height: 100px;
+}
