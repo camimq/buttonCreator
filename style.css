@@ -1,6 +1,7 @@
 body {
   margin: 0px;
-  background: #ccc;
+  background: url(./img/backgroundImage.svg) no-repeat fixed;
+  background-size: cover;
 }
 
 label {
