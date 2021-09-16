@@ -4,6 +4,13 @@ body {
   background-size: cover;
 }
 
+.blackContainer {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.31);
+  border-radius: 23px 23px 0px 0px;
+  margin: 0 6.875rem 0 6.875rem;
+}
+
 label {
   display: block;
   margin-bottom: 0.5rem;
@@ -41,4 +48,11 @@ input {
 .css span {
   display: block;
   margin-bottom: 0.5rem;
+}
+
+.resetButton {
+  background: #8c52ff;
+  border-radius: 0px 0px 23px 23px;
+  margin: 0 6.875rem 0 6.875rem;
+  height: 6.5rem;
 }
