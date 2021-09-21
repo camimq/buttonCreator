@@ -1,14 +1,17 @@
 body {
-  margin: 0px;
   background: url(./img/backgroundImage.svg) no-repeat fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .blackContainer {
   background: rgba(0, 0, 0, 0.5);
   box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.31);
-  border-radius: 23px 23px 0px 0px;
-  margin: 0 6.875rem 0 6.875rem;
+  border-radius: 23px;
+  /* margin: 0 6.875rem 0 6.875rem; */
+  margin: auto;
 }
 
 label {
@@ -52,7 +55,33 @@ input {
 
 .resetButton {
   background: #8c52ff;
-  border-radius: 0px 0px 23px 23px;
-  margin: 0 6.875rem 0 6.875rem;
-  height: 6.5rem;
+  border-radius: 50px;
+  /* margin: 0 6.875rem 0 6.875rem; */
+  height: 6rem;
+  align-self: center;
+}
+
+.resetButton_btn {
+  border-radius: 23px;
+}
+
+.footer {
+  align-self: center;
+}
+
+.footerP {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.material-icons {
+  color: red;
+  font-size: 17px;
+}
+
+.footerI {
+  height: 17px;
+  width: 17px;
 }
