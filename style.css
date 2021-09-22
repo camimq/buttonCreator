@@ -53,16 +53,18 @@ input {
   margin-bottom: 0.5rem;
 }
 
-.resetButton {
+.resetButton__btn {
+  border-radius: 40px;
+  border: none;
+  width: 22rem;
+  height: 3rem;
   background: #8c52ff;
-  border-radius: 50px;
-  /* margin: 0 6.875rem 0 6.875rem; */
-  height: 6rem;
-  align-self: center;
-}
 
-.resetButton_btn {
-  border-radius: 23px;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
 }
 
 .footer {
