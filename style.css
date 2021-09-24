@@ -1,6 +1,17 @@
 body {
-  margin: 0px;
-  background: #ccc;
+  background: url(./img/backgroundImage.svg) no-repeat fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.blackContainer {
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.31);
+  border-radius: 23px;
+  /* margin: 0 6.875rem 0 6.875rem; */
+  margin: auto;
 }
 
 label {
@@ -40,4 +51,39 @@ input {
 .css span {
   display: block;
   margin-bottom: 0.5rem;
+}
+
+.resetButton__btn {
+  border-radius: 40px;
+  border: none;
+  width: 22rem;
+  height: 3rem;
+  background: #8c52ff;
+
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.footer {
+  align-self: center;
+}
+
+.footerP {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.material-icons {
+  color: red;
+  font-size: 17px;
+}
+
+.footerI {
+  height: 17px;
+  width: 17px;
 }
